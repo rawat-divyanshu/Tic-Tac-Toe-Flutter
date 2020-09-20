@@ -1,16 +1,8 @@
-# tictactoe
+# Tic Tac Toe - Flutter
+This is our Classic Tic Tac Toe Game, deisgned and developed in Flutter.
 
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots
+<img src="https://github.com/rawat-divyanshu/Tic-Tac-Toe-Flutter/blob/master/screenshots/Screenshot_2020-09-21-02-59-21-39_fa7fe5e106840312929130dcd7bc60e3.png?raw=true" />
+<img src="https://github.com/rawat-divyanshu/Tic-Tac-Toe-Flutter/blob/master/screenshots/Screenshot_2020-09-21-02-59-27-00_fa7fe5e106840312929130dcd7bc60e3.png?raw=true" />
+<img src="https://github.com/rawat-divyanshu/Tic-Tac-Toe-Flutter/blob/master/screenshots/Screenshot_2020-09-21-02-59-36-54_fa7fe5e106840312929130dcd7bc60e3.png?raw=true" />
+<img src="https://github.com/rawat-divyanshu/Tic-Tac-Toe-Flutter/blob/master/screenshots/Screenshot_2020-09-21-02-59-47-51_fa7fe5e106840312929130dcd7bc60e3.png?raw=true" />
