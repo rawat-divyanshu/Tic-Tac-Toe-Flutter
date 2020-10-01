@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'dart:io';
+import 'package:google_fonts/google_fonts.dart';
 
 class Home extends StatefulWidget {
   @override
@@ -167,7 +168,14 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Tic Tac Toe"),
+        title: Text(
+          "Tic Tac Toe",
+          style: GoogleFonts.poppins(
+            fontSize: 20,
+            fontWeight: FontWeight.w500,
+            color: Colors.white,
+          ),
+        ),
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
@@ -201,7 +209,7 @@ class _HomeState extends State<Home> {
             padding: EdgeInsets.all(20.0),
             child: Text(
               this.message,
-              style: TextStyle(
+              style: GoogleFonts.poppins(
                 fontSize: 20.0,
                 fontWeight: FontWeight.bold,
               ),
@@ -216,9 +224,10 @@ class _HomeState extends State<Home> {
             height: 50.0,
             child: Text(
               "Reset Game",
-              style: TextStyle(
+              style: GoogleFonts.poppins(
                 color: Colors.white,
                 fontSize: 20.0,
+                fontWeight: FontWeight.w500,
               ),
             ),
           ),
@@ -227,7 +236,7 @@ class _HomeState extends State<Home> {
             child: Text(
               "Developed By Divyanshu Rawat",
               style: TextStyle(
-                fontSize: 18.0,
+                fontSize: 16.0,
               ),
             ),
           )
