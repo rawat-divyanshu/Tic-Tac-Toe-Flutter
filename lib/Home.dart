@@ -176,6 +176,29 @@ class _HomeState extends State<Home> {
             color: Colors.white,
           ),
         ),
+        actions: [
+          IconButton(
+              color: Colors.white,
+              icon: Icon(Icons.help),
+              onPressed: () {
+                showDialog(
+                    context: context,
+                    builder: (BuildContext context) {
+                      return AlertDialog(
+                        title: Text('How to Play?',
+                            style: TextStyle(
+                                fontSize: 22, fontWeight: FontWeight.bold)),
+                        content: Text(
+                          '1. Take turns to draw symbols ❌⭕ \n\n'
+                          '2. Click on boxes to edit ✏\n\n'
+                          '3. First one with same symbols in a row wins 🎉\n\n'
+                          "4. If no one gets a row it's a draw 🔄",
+                          style: TextStyle(fontSize: 20),
+                        ),
+                      );
+                    });
+              })
+        ],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
